@@ -9,4 +9,5 @@ export default defineConfig({
         //siempre se cambiará de acuerdo a la red
         host: "192.168.36.56"
     },
+    base: "https://omerjuve2023.github.io/intranet-faustiniano/"
 })

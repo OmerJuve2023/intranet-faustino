@@ -1,10 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import LoginForm from './LoginForm.jsx'
 import './index.css'
+import {createHashRouter, RouterProvider} from "react-router-dom";
+import LoginPage from "./LoginForm.jsx";
 
+const router = createHashRouter([
+    {
+        path: "/",
+        element: <LoginPage></LoginPage>
+    }
+])
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <LoginForm />
-  </React.StrictMode>,
+    <React.StrictMode>
+        <RouterProvider router={router}/>
+    </React.StrictMode>,
 )
