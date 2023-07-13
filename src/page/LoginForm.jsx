@@ -1,4 +1,4 @@
-import './App.css'
+import '../App.css'
 import React from "react";
 
 class LoginForm extends React.Component {
@@ -61,7 +61,7 @@ class LoginPage extends React.Component {
                 </div>
                 <div id="PosicionDerecha">
                     <div id="imagen">
-                        <img src="../src/images/img001.jpg" width="380" height="253"/>
+                        <img src="../images/img001.jpg" width="380" height="253"/>
                     </div>
                     <div id="Contenido">
                         <p>Le recordamos que también puede utilizar el servicio de correo electrónico institucional que
