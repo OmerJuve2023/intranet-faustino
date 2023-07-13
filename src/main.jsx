@@ -6,8 +6,8 @@ import LoginPage from "./LoginForm.jsx";
 
 const router = createHashRouter([
     {
-        path: "/",
-        element: <LoginPage></LoginPage>
+        path: "/Home",
+        element: <LoginPage/>
     }
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
