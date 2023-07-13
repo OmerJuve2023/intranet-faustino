@@ -6,7 +6,7 @@ import LoginPage from "./page/LoginForm.jsx";
 
 const router = createHashRouter([
     {
-        path: "/Home",
+        path: "/",
         element: <LoginPage/>
     }
 ])
