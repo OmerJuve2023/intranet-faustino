@@ -1,5 +1,6 @@
 import '../App.css'
 import React from "react";
+import image from "../images/img001.jpg"
 
 class LoginForm extends React.Component {
     render() {
@@ -9,7 +10,7 @@ class LoginForm extends React.Component {
                 <br/>
                 <br/>
                 <br/>
-                <br style={{marginBottom:"4px"}}/>
+                <br style={{marginBottom: "4px"}}/>
 
                 <table border="0" cellSpacing="2" cellPadding="2" width="100%">
                     <tbody>
@@ -61,7 +62,7 @@ class LoginPage extends React.Component {
                 </div>
                 <div id="PosicionDerecha">
                     <div id="imagen">
-                        <img src="../images/img001.jpg" width="380" height="253"/>
+                        <img src={image} width="380" height="253"/>
                     </div>
                     <div id="Contenido">
                         <p>Le recordamos que también puede utilizar el servicio de correo electrónico institucional que
