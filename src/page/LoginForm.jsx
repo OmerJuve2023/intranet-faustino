@@ -3,6 +3,8 @@ import React from "react";
 import image from "../images/img001.jpg"
 
 class LoginForm extends React.Component {
+
+
     render() {
         return (
             <div className="Formulario">
@@ -37,8 +39,10 @@ class LoginForm extends React.Component {
                     </tr>
                     <tr>
                         <td colSpan="2" style={{textAlign: 'center'}}>
-                            <input type="submit" name="btnIniciarSesion" value="Iniciar sesión"
-                                   id="btnIniciarSesion" className="Boton_basico"/>
+                            <form action="https://intranet.unjfsc.edu.pe/">
+                                <input type="submit" name="btnIniciarSesion" value="Iniciar sesión"
+                                       id="btnIniciarSesion" className="Boton_basico"/>
+                            </form>
                         </td>
                     </tr>
                     <tr>
@@ -73,7 +77,7 @@ class LoginPage extends React.Component {
                     Reservados
                 </div>
             </div>
-        );
+        )
     }
 }
 
