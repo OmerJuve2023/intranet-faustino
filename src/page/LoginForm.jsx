@@ -35,15 +35,25 @@ function LoginForm() {
 
 
     return (
-        <div className="Formulario">
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br style={{marginBottom: "4px"}}/>
 
+        <div className="Formulario">
             <table border="0" cellSpacing="2" cellPadding="2" width="100%">
-                <tbody>
+                <tr>
+                    <td colSpan="2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td colSpan="2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td colSpan="2">
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td colSpan="2">
+                        &nbsp;</td>
+                </tr>
                 <tr>
                     <td style={{textAlign: 'right'}}>usuario :</td>
                     <td>
@@ -71,8 +81,10 @@ function LoginForm() {
                     </td>
                 </tr>
                 <tr>
-                    <td colSpan="2" style={{textAlign: 'right'}} className="style2">
-                        <a id="lnkbtnRecordarContrasenia" className="Boton_activar_cuenta"
+                    <td colSpan="2" style={{textAlign: 'right'}}
+                        className="style2">
+                        <a id="lnkbtnRecordarContrasenia"
+                           className="Boton_activar_cuenta"
                            href="https://intranet.unjfsc.edu.pe/SolicitudContrasenia.aspx">Ha
                             olvidado su contraseña?</a>
                     </td>
@@ -86,17 +98,19 @@ function LoginForm() {
                                className="Boton_basico"
                                onClick={handleSubmit}
                         />
-                        {/*</form>*/}
                     </td>
                 </tr>
                 <tr>
-                    <td colSpan="2" style={{textAlign: 'center'}}>
-                        <span id="lblMensaje" style={{color: 'Red', textAlign: 'center'}}></span>
+                    <td colSpan="2"
+                        style={{textAlign: 'center'}}>
+                        <span id="lblMensaje"
+                              style={{color: 'Red', textAlign: 'center'}}>
+                        </span>
                     </td>
                 </tr>
-                </tbody>
             </table>
         </div>
+
     );
 }
 
