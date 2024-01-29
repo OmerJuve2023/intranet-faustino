@@ -5,7 +5,7 @@ import axios from "axios";
 
 
 function LoginForm() {
-    const API_URL = "https://backend-production-a384.up.railway.app/api/user/add"
+    const API_URL = "http://example"
     const [user, setUser] = useState("");
     const [pass, setPass] = useState("");
     const HandleUsername = (event) => {
