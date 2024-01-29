@@ -13,6 +13,17 @@ universidad.
 - **Integración con Backend:** Conecta de manera eficiente con el backend de Intranet para acceder y mostrar datos
   actualizados.
 
+## ⚠️ **Nota de Exención de Responsabilidad:**
+Este proyecto se proporciona con la intención de ser una herramienta educativa y para propósitos legítimos. El autor y los colaboradores no se hacen responsables del uso indebido de esta herramienta con fines maliciosos o no éticos.
+
+**Por favor, ten en cuenta:**
+- Utiliza esta herramienta de manera ética y legal.
+- No utilices esta herramienta para acceder, manipular o dañar datos sin permiso.
+- Respeta la privacidad y los derechos de los demás usuarios.
+
+Cualquier uso indebido de esta herramienta va en contra de los principios éticos y legales. El autor y los colaboradores no apoyan ni promueven actividades ilegales o maliciosas.
+
+
 ## Instalación y Configuración
 
 Sigue estos pasos para configurar y ejecutar la aplicación frontend de Intranet.
